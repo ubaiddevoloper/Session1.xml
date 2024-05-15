@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+<!ELEMENT student (First, Last,Title)>
+<!ELEMENT First (#PCDATA)>
+<!ELEMENT Last (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+
+]>
+<S:Student xmlns:S="https://www.tesla.com/">
+<S:First>John</S:First>
+<S:Last>Dewey</S:Last>
+<S:Title>Student</S:Title>
+</S:Student>
